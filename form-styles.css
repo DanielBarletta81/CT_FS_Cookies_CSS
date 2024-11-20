@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(179, 240, 240);
+}
+
+h1.welcome{
+    background-color: rgb(98, 233, 233);
+    justify-self: center;
+    border: 2px black; 
+}
+
+div.recipe-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    height: 50%;
+    border: 10px solid black;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+
+}
+button{
+    background-color: rgb(234, 203, 219);
+}
+
+button:hover {
+    background-color: rgb(104, 241, 138);
+    font-size: 22px;
+}
